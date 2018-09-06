@@ -1,4 +1,4 @@
-# Change hostname Ubuntu 18
+# Change Hostname Ubuntu 18
 
 ## Check current hostname
 

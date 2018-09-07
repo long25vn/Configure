@@ -14,3 +14,5 @@ sudo usermod -a -G docker $USER
 #Start docker daemon automatically
 
 systemctl enable docker
+
+echo 'Done!'

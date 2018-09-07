@@ -1,3 +1,9 @@
+### Create on docker 
+
+```
+docker run -d -p 5000:5000 --name registry registry:2
+```
+
 ### Create or modify /etc/docker/daemon.json
 
 ```

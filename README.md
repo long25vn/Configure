@@ -18,7 +18,7 @@ Tools, tips, tricks
   2. [Add User To Group Docker](https://github.com/long25vn/Software/blob/master/Docker/Add-user-to-group-docker.md)
   3. [Install Docker in Ubuntu](https://github.com/long25vn/Software/blob/master/Docker/Install-Docker-Ubuntu.sh)
   4. [Install Docker in Elementary](https://github.com/long25vn/Software/blob/master/Docker/Install-Docker-Elementary.sh)
-
+  5. [Docker registry local](https://github.com/long25vn/Configure/blob/master/Docker/Docker-registry-http.md)
 
 -----
 

@@ -22,6 +22,12 @@ Tools, tips, tricks
 
 -----
 
+# Swarm
+
+  1. [Scheduling Containers](https://github.com/long25vn/Configure/tree/master/Docker/Swarm/scheduling-containers.md)
+  
+-----
+
 # Golang
   
   1. [Install Golang](https://github.com/long25vn/Software/blob/master/Golang/Install-Go.sh)

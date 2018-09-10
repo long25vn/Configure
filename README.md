@@ -19,7 +19,8 @@ Tools, tips, tricks
   3. [Install Docker in Ubuntu](https://github.com/long25vn/Software/blob/master/Docker/Install-Docker-Ubuntu.sh)
   4. [Install Docker in Elementary](https://github.com/long25vn/Software/blob/master/Docker/Install-Docker-Elementary.sh)
   5. [Docker registry local](https://github.com/long25vn/Configure/blob/master/Docker/Docker-registry-http.md)
-
+  6. [Create a Docker Registry with PassWord](https://github.com/long25vn/Configure/blob/master/Docker/Configure/Create-registry-with-password.md)
+  
 -----
 
 # Swarm

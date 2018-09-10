@@ -11,7 +11,8 @@ Some configuration options result in containers being automatically scheduled on
 
   + links
 
-Manual scheduling
+## Manual scheduling
+
 Swarm offers a rich set of scheduling and affinity hints, enabling you to control where containers are located. They are specified via container environment variables, so you can use Compose’s environment option to set them.
 
 ```

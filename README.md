@@ -26,6 +26,7 @@ Tools, tips, tricks
 # Swarm
 
   1. [Scheduling Containers](https://github.com/long25vn/Configure/tree/master/Docker/Swarm/scheduling-containers.md)
+  2. [Specify Service](https://github.com/long25vn/Configure/blob/master/Docker/Swarm/Specify%20Service.md)
   
 -----
 

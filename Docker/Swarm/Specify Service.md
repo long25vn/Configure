@@ -175,3 +175,5 @@ $ docker inspect --format="{{.Config.Hostname}}" 2e7a8a9c4da2-wo41w8hg8qanxwjwsg
 
 x3ti0erg11rjpg64m75kej2mz-hosttempl
 ```
+
+[More](https://docs.docker.com/engine/reference/commandline/service_create/)

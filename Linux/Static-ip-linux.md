@@ -14,12 +14,13 @@ When you use NetworkManager as the renderer, you will use the NetworkManager GUI
 
 Below is a sample file for a network interface using networkd as renderer using DHCP…. Networkd uses the command line to configure the network interfaces.
 
+```
 # This file is generated from information provided by
 # the datasource.  Changes to it will not persist across an instance.
 # To disable cloud-init's network configuration capabilities, write a file
 # /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg with the following:
 # network: {config: disabled}
-```
+
 network:
     ethernets:
         enp0s3:
@@ -31,7 +32,8 @@ To save your changes, you run the commands below.
 
 `sudo netplan apply`
 
-Configuring Static IP Addresses With Networkd (Server)
+# Configuring Static IP Addresses With Networkd (Server)
+
 To configure a static IP address using the new NetPlan tool on Ubuntu server, the file should look similar to the content below…
 
 For example you might find a default netplan configuration file in the /etc/netplan directory called 50-cloud-init.yaml with a following content using the networkd deamon to configure your network interface via DHCP…..
@@ -40,12 +42,13 @@ For example you might find a default netplan configuration file in the /etc/netp
 
 Then file should look like this one below:
 
+```
 # This file is generated from information provided by
 # the datasource.  Changes to it will not persist across an instance.
 # To disable cloud-init's network configuration capabilities, write a file
 # /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg with the following:
 # network: {config: disabled}
-```
+
 network:
     ethernets:
         enp0s3:
@@ -60,12 +63,13 @@ The above is a default networkd redenrer configuration file for a Ubuntu server 
 
 Then configure IPv4 addresses as shown below… take notes of the format the lines are written…
 
+```
 # This file is generated from information provided by
 # the datasource.  Changes to it will not persist across an instance.
 # To disable cloud-init's network configuration capabilities, write a file
 # /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg with the following:
 # network: {config: disabled}
-```
+
 network:
     ethernets:
         enp0s3:
@@ -82,13 +86,13 @@ Exit and save your changes by running the commands below
 
 You can add IPv6 addresses line, separated by a comma.. highlighted example below.
 
+```
 # This file is generated from information provided by
 # the datasource.  Changes to it will not persist across an instance.
 # To disable cloud-init's network configuration capabilities, write a file
 # /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg with the following:
 # network: {config: disabled}
 
-```
 network:
     ethernets:
         enp0s3:
@@ -111,17 +115,22 @@ This is how to set static IP addresses on Ubuntu 18.04 and 18.10 server and desk
 
 For more about NetPlay, visit this site.
 
-Configure Network Interfaces With NetworkManager
+# Configure Network Interfaces With NetworkManager
+
 NetworkManager sample configuration file.
 
+```
 # Let NetworkManager manage all devices on this system
 network:
   version: 2
   renderer: NetworkManager
+
+```
 Next, open the network interfaces GUI on Ubuntu to manage the network.
 
 Congratulations! You’ve just successfully configured static IP addresses on Ubuntu servers.
 
 Enjoy!~
 
-You may also like the post below:
+### Reboot
+

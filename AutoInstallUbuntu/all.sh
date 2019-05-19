@@ -1,6 +1,7 @@
 #!/bin/sh
 apt update
 apt -y upgrade
+apt install curl
 apt -y install git
 
 echo "=======================================Install Basic Package================================"

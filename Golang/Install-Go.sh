@@ -1,5 +1,5 @@
 #!/bin/sh
-GOVERSION="go1.10"
+GOVERSION="go1.12.9"
 
 apt update
 apt -y upgrade

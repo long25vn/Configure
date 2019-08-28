@@ -1,1 +1,6 @@
+sudo apt-get remove golang-go
+sudo apt-get remove --auto-remove golang-go
+
+Hoặc
+
 sudo rm -rvf /usr/local/go/

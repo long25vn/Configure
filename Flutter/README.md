@@ -1,4 +1,4 @@
-# Install Flutter Mac
+# Install Flutter MacOS
 Download FLutter sdk
 
 copy thư mục đã giải nén -> /usr/local/

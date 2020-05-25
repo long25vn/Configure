@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Install Nodejs
-curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 apt install -y nodejs
 
 # Install YARN

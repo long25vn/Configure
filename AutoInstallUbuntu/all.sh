@@ -2,7 +2,6 @@
 apt update
 apt -y upgrade
 apt install curl
-apt -y install git
 
 echo "=======================================Install Basic Package================================"
 add-apt-repository -y ppa:jonathonf/vim
@@ -26,5 +25,3 @@ echo "=======================================Install Sublime Text===============
 echo "=======================================Install ZSH=========================================="
 ./zsh.sh
 
-echo "=======================================Install Ibus Unikey=================================="
-./ibus-unikey.sh

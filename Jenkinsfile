@@ -8,7 +8,9 @@ pipeline {
         }
         stage('Build') {
             steps {
-                git 'https://github.com/long25vn/Configure'
+                dir('/var/jenkins_home/workspace') {
+                    sh 'ls'
+                }
             }
         }
     }

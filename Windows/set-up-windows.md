@@ -1,4 +1,4 @@
-#WSL Configure
+# WSL Configure
 
 ```shell
 $ notepad $env:USERPROFILE\.wslconfig
